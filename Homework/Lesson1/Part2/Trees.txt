@@ -1,0 +1,3 @@
+Attributes: type, colour, number of leafs, number of branches, number of roots, number of 
+rings, age, weight, name, firmness.
+States: create oxygen, drink, make noise, enhance soil, cast a shadow, engage in photosynthesis, Falling leaves, to protect from the wind, sleep, grow.
