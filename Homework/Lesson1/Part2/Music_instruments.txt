@@ -1,0 +1,2 @@
+Attributes: type, tonality, colour, weight, cost, size, material, date of manufacture, age, firm.
+States: sounds, gathering dust, silent, upset, broken, laid in a pawnshop, sold, bought, new, repaired.
