@@ -1,0 +1,2 @@
+Attributes: name, position, year of birth, weight, salary, height, profession, work experience, age, company.
+States: working, dines, business trip, on holiday, fired, is ill, transferred, on trial, receive a salary, on training.
