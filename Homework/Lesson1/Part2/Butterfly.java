@@ -17,7 +17,8 @@ public class Animals {
 	void private drink() {}
 	void private sniff() {}
 	void private fly () {}
-	public boolean create cyclone(boolean cyclone) {cyclone=true; return cyclone;}
+	public boolean createCyclone(boolean cyclone) {
+				cyclone=true; return cyclone;}
 	void private crawl() {}
 	void private sleep () {}
 	private int grow(int age) {age=age+1; return age;}

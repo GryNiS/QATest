@@ -1,2 +1,2 @@
 Attributes: type, colour, number of legs, number of wings, number of antennae, number of eyes, age, weight, name, nature.
-States: flit, pollinate, eat, drink, sniff, fly, create cyclone, crawl, sleep, grow.
+States: flit, pollinate, eat, drink, sniff, fly, createCyclone, crawl, sleep, grow.
