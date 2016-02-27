@@ -1,0 +1,2 @@
+Attributes: type, colour, eatable, barcode, cost, date of manufacture, guarantee period, weight, name, size.
+States: buy, weighing, sell, add to the database, deliver, support, warranty extension, get information, eat, steal.
