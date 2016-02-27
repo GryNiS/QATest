@@ -1,0 +1,2 @@
+Attributes: type, screen diagonal, colour, weight, cost, size, material, date of manufacture, age, firm.
+States: sounds, gathering dust, silent, connected to the Internet, broken, laid in a pawnshop, sold, bought, new, repaired.
