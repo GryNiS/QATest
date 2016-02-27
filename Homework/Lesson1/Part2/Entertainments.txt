@@ -1,0 +1,2 @@
+Attributes: type, minimum number of people, maximum number of people, difficulty level, cost,  time, age restrictions, for men, for women, for children.
+States: people running, laughing, joking, having fun, swim, jump, ride, eat, read, watch.
