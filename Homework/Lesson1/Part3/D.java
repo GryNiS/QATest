@@ -1,8 +1,8 @@
-public class D extends C {
-private int dd1;
-public int dd2;
-public int dd3;
+public class Dolphins extends Aqueous {
+private String type;
+public int nTeeth;
+public boolean tail;
 
-private d1() {}
-public d2() {}
+private dive() {}
+public communicate() {}
 }

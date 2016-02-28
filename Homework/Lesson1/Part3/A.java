@@ -1,7 +1,9 @@
-public class A {
-private int aa1;
-public int aa2;
+public class Animals {
+private int age;
+public String sex;
+public String name;
 
-private a1() {}
-public a2() {}
+
+private sleep() {}
+public eat() {}
 }

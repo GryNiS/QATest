@@ -1,0 +1,2 @@
+Attributes: age, sex, name.
+States: sleep, eat.

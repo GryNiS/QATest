@@ -1,0 +1,2 @@
+Attributes: nFlipper, squama, nEyes.
+States: swim, breathe.

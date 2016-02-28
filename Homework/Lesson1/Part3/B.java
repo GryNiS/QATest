@@ -1,8 +1,8 @@
-public class B extends A {
-private int bb1;
-public int bb2;
-public int bb3;
+public class Mammals extends Animals {
+private int nChildren;
+public int weight;
+public int height;
 
-private b1() {}
-public b2() {}
+private nurse() {}
+public reproduction() {}
 }

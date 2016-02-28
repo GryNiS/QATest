@@ -1,0 +1,2 @@
+Attributes: nChildren, weight, height.
+States: nurse, reproduction.

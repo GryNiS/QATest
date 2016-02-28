@@ -1,8 +1,8 @@
-public class C extends B {
-private int cc1;
-public int cc2;
-public int cc3;
+public class Aqueous extends Mammals {
+private int nFlipper;
+public boolean squama;
+public int nEyes;
 
-private c1() {}
-public c2() {}
+private swim() {}
+public breathe() {}
 }
