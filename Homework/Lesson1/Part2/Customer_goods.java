@@ -1,4 +1,4 @@
-public class Animals {
+public class Customer_goods {
 	private int barcode;
 	private int weight;
 	public String type;
