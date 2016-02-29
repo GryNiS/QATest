@@ -3,10 +3,10 @@ public class Animals {
 	private int weight;
 	public String type;
 	public String color;
-	public int number of legs;
-	public int number of wings;
-	public int number of antennae;
-	public int number of eyes;	
+	public int number_of_legs;
+	public int number_of_wings;
+	public int number_of_antennae;
+	public int number_of_eyes;	
 	public String name;
 	public String nature;
 	public boolean cyclone=false;
