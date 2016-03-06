@@ -1,5 +1,5 @@
 public class Worker_of_company {
-	private int year_of_birth;
+	private int yearOfBirth;
 	private int weight;
 	public String name;
 	public String position;
@@ -7,17 +7,17 @@ public class Worker_of_company {
 	public Boolean salary;
 	public String company;
 	public int age;	
-	public int work_experience;
+	public int workExperience;
 	public int height;
 	
-	void private working() {}
-	void public dines() {}
-	void private businessTrip () {}
-	void private onHoliday() {}
-	void private Fired() {}
-	void private isIll () {}
-	void public transferred(}
-	void private onTrial() {}
-	void private receiveASalary () {}
-	void private onTraining(){}
+	private void Boolean working() {}
+	public void Boolean dines() {}
+	private void Boolean businessTrip () {}
+	private void Boolean onHoliday() {}
+	private void Boolean Fired() {}
+	private void Boolean isIll () {}
+	public void Boolean transferred(}
+	private void Boolean onTrial() {}
+	private void Boolean receiveASalary () {}
+	private void Boolean onTraining(){}
 }

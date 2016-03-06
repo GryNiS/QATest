@@ -4,20 +4,20 @@ public class Customer_goods {
 	public String type;
 	public String color;
 	public int cost;
-	public int date_of_manufacture;
+	public int dateOfManufacture;
 	public int guarantee_period;
 	public int size;	
 	public String name;
 	public boolean eatable=false;
 	
-	void private buy() {}
-	void public weighing() {}
-	void private sell () {}
-	void private addToTheDatabase() {}
-	void private deliver() {}
-	void private support () {}
-	void public warrantyExtension(}
-	private String getInformation() {Info="Good goods"}
-	void private eat () {}
-	void private steal(){}
+	private void buy() {}
+	public void weighing() {}
+	private void sell () {}
+	private void addToTheDatabase() {}
+	private void deliver() {}
+	private void support () {}
+	public void warrantyExtension(}
+	private String getInformation() {return Info="Good goods";}
+	private void eat () {}
+	private void steal(){}
 }

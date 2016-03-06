@@ -1,4 +1,4 @@
-public class Animals {
+public class Butterfly {
 	private int age;
 	private int weight;
 	public String type;
@@ -11,15 +11,15 @@ public class Animals {
 	public String nature;
 	public boolean cyclone=false;
 	
-	void private flit() {}
-	void public pollinate() {}
-	void private eat () {}
-	void private drink() {}
-	void private sniff() {}
-	void private fly () {}
+	private void flit() {}
+	public void pollinate() {}
+	private void eat () {}
+	private void drink() {}
+	private void sniff() {}
+	private void fly () {}
 	public boolean createCyclone(boolean cyclone) {
 				cyclone=true; return cyclone;}
-	void private crawl() {}
-	void private sleep () {}
-	private int grow(int age) {age=age+1; return age;}
+	private void crawl() {}
+	private void sleep () {}
+	private int grow(int age) {return age+1;}
 }

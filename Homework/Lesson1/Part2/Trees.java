@@ -10,14 +10,14 @@ public class Trees {
 	public int weight;
 	public int age;
 	
-	void private createOxygen() {}
-	void public drink() {}
-	void private makeNoise () {}
-	void private enhanceSoil() {}
-	void private castAShadow() {}
-	void private engageInPhotosynthesis () {}
-	void public fallingLeaves(}
-	void private protectFromTheWind() {}
-	void private sleep () {}
-	void private grow(){}
+	private void createOxygen() {}
+	public void drink() {}
+	private void makeNoise () {}
+	private void enhanceSoil() {}
+	private void castAShadow() {}
+	private void engageInPhotosynthesis () {}
+	public void fallingLeaves(}
+	private void protectFromTheWind() {}
+	private void sleep () {}
+	private void grow(){}
 }

@@ -1,23 +1,23 @@
 public class Entertainments {
-	private int minimum number of people;
-	private int maximum number of people;
+	private int minimumNumberOfPeople;
+	private int maximumNumberOfPeople;
 	public String type;
-	public String difficulty level;
+	public String difficultyLevel;
 	public int cost;
 	public int time;
-	public boolean for_men=false;
+	public boolean forMen=false;
 	public int age restrictions;	
-	public boolean for_women=false;
-	public boolean for_children=false;
+	public boolean forWomen=false;
+	public boolean forChildren=false;
 	
-	void private peopleRunning() {}
-	void public laughing() {}
-	void private joking () {}
-	void private havingFun() {}
-	void private swim() {}
-	void private jump () {}
-	void public ride(}
-	void private eat() {}
-	void private read () {}
-	void private watch(){}
+	private void peopleRunning() {}
+	public void laughing() {}
+	private void joking () {}
+	private void havingFun() {}
+	private void swim() {}
+	private void jump () {}
+	public void ride(}
+	private void eat() {}
+	private void read () {}
+	private void watch(){}
 }
