@@ -4,6 +4,6 @@ public String sex;
 public String name;
 
 
-private sleep() {}
-public eat() {}
+private void sleep() {}
+public String eat() {}
 }

@@ -3,6 +3,6 @@ private String type;
 public int nTeeth;
 public boolean tail;
 
-private dive() {}
-public communicate() {}
+private void dive() {}
+public String communicate() {}
 }

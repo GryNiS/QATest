@@ -3,6 +3,6 @@ private int nFlipper;
 public boolean squama;
 public int nEyes;
 
-private swim() {}
-public breathe() {}
+private void swim() {}
+public Boolean breathe() {}
 }

@@ -3,6 +3,6 @@ private int nChildren;
 public int weight;
 public int height;
 
-private nurse() {}
-public reproduction() {}
+private void nurse() {}
+public void reproduction() {}
 }
