@@ -17,7 +17,7 @@ public class Customer_goods {
 	void private deliver() {}
 	void private support () {}
 	void public warrantyExtension(}
-	void private getInformation() {}
+	private String getInformation() {Info="Good goods"}
 	void private eat () {}
 	void private steal(){}
 }
