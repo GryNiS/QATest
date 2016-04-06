@@ -10,9 +10,7 @@ public class Ch1 {
 	}
 	
 	private static boolean visitCinema(boolean he,boolean she){
-		boolean v=false;
-		v=(he==she)?true:false;
-		return v;
+		return (he==she)?true:false;
 	}
 
 }
