@@ -6,10 +6,10 @@ public class Ch12 {
 		 int n = 12345;
 		 int sum = 0;
 
-		for(n = n; n != 0; n /= 10)
-		{ 
-		    sum = sum + (n % 10); 
-		} 
+		 while (n > 0){
+			sum += n%10;
+			n = n/10;	
+			}
 
 	}
 
