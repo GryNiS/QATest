@@ -1,0 +1,15 @@
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('London', '1', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Paris', '1', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Sydney', '0', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Berlin', '1', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Munich', '1', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('New-York', '0', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Kiev', '1', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Budapest', '1', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Beijing', '0', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Prague', '1', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Helsinki', '0', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Ottava', '0', '0');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Vilnius', '1', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Milan', '1', '1');
+INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Barcelona', '1', '0');

@@ -1,0 +1,17 @@
+CREATE TABLE `sys`.`airports` (
+  `airport` VARCHAR(20) NOT NULL,
+  `dutyFree` BIT(1) NULL,
+  `priorityBoarding` BIT(1) NULL,
+  PRIMARY KEY (`airport`));
+
+CREATE TABLE `sys`.`flights` (
+  `airport` VARCHAR(20) NOT NULL,
+  `country of arrival` VARCHAR(20) NULL,
+  `airlines` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`airport`));
+
+CREATE TABLE `sys`.`airlines` (
+  `airport` VARCHAR(20) NOT NULL,
+  `Name` VARCHAR(45) NULL,
+  `nFlights` INT NULL,
+  PRIMARY KEY (`airport`));
