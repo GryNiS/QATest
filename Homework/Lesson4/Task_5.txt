@@ -13,3 +13,37 @@ INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES 
 INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Vilnius', '1', '1');
 INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Milan', '1', '1');
 INSERT INTO `sys`.`airports` (`airport`, `dutyFree`, `priorityBoarding`) VALUES ('Barcelona', '1', '0');
+
+
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Barcelona', 'Prague', 'Branch');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('London', 'Berlin', 'Shmm');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Paris', 'Sydney', 'Flyger');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Sydney', 'Paris', 'Branch');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Berlin', 'Beijing', 'Rsiher');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Munich', 'Vilnius', 'Rsiher');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('New-York', 'Helsinki', 'Shmm');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Kiev', 'Vilnius', 'Flyger');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Budapest', 'Beijing', 'Branch');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Beijing', 'Helsinki', 'Shmm');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Prague', 'Helsinki', 'Rsiher');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Helsinki', 'Vilnius', 'Branch');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Ottava', 'Beijing', 'Flyger');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Vilnius', 'Helsinki', 'Shmm');
+INSERT INTO `sys`.`flights` (`airport`, `country of arrival`, `airlines`) VALUES ('Milan', 'Beijing', 'Branch');
+
+
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Barcelona', 'Branch', '11');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('London', 'Shmm', '21');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Paris', 'Rsiher', '55');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Sydney', 'Branch', '36');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Berlin', 'Branch', '5');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Munich', 'Flyger', '4');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('New-York', 'Shmm', '55');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Kiev', 'Branch', '4');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Budapest', 'Rsiher', '5');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Beijing', 'Shmm', '6');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Prague', 'Flyger', '55');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Helsinki', 'Flyger', '4');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Ottava', 'Rsiher', '36');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Vilnius', 'Branch', '4');
+INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Milan', 'Shmm', '33');
