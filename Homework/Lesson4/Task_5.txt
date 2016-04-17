@@ -47,3 +47,69 @@ INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Helsinki',
 INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Ottava', 'Rsiher', '36');
 INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Vilnius', 'Branch', '4');
 INSERT INTO `sys`.`airlines` (`airport`, `Name`, `nFlights`) VALUES ('Milan', 'Shmm', '33');
+
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-04-04' WHERE `airport`='Barcelona';
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-04-04' WHERE `airport`='Beijing';
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-04-05' WHERE `airport`='Berlin';
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-05-04' WHERE `airport`='Budapest';
+UPDATE `sys`.`flights` SET `cost`='122.5', `date`='2016-05-05' WHERE `airport`='Kiev';
+UPDATE `sys`.`flights` SET `cost`='122.5', `date`='2016-04-05' WHERE `airport`='Milan';
+UPDATE `sys`.`flights` SET `cost`='122.5', `date`='2016-05-04' WHERE `airport`='Prague';
+UPDATE `sys`.`flights` SET `cost`='12', `date`='2016-04-04' WHERE `airport`='Sydney';
+UPDATE `sys`.`flights` SET `cost`='122', `date`='2016-04-04' WHERE `airport`='Vilnius';
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-04-04' WHERE `airport`='Ottava';
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-04-04' WHERE `airport`='Munich';
+UPDATE `sys`.`flights` SET `cost`='12.5', `date`='2016-04-05' WHERE `airport`='New-York';
+UPDATE `sys`.`flights` SET `cost`='1222.5', `date`='2016-04-04' WHERE `airport`='London';
+UPDATE `sys`.`flights` SET `cost`='1222', `date`='2016-04-04' WHERE `airport`='Helsinki';
+UPDATE `sys`.`flights` SET `cost`='22.5', `date`='2016-04-04' WHERE `airport`='Paris';
+
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Barcelona';
+UPDATE `sys`.`airlines` SET `viaInternet`='0' WHERE `airport`='Beijing';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Berlin';
+UPDATE `sys`.`airlines` SET `viaInternet`='0' WHERE `airport`='Budapest';
+UPDATE `sys`.`airlines` SET `viaInternet`='0' WHERE `airport`='Helsinki';
+UPDATE `sys`.`airlines` SET `viaInternet`='0' WHERE `airport`='Kiev';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='London';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Milan';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Munich';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='New-York';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Ottava';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Paris';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Prague';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Sydney';
+UPDATE `sys`.`airlines` SET `viaInternet`='1' WHERE `airport`='Vilnius';
+
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Barcelona';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Beijing';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Berlin';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Budapest';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='Helsinki';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='Kiev';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='London';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Milan';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='Munich';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='New-York';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='Ottava';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Paris';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='Prague';
+UPDATE `sys`.`flights` SET `priority with carriage`='1' WHERE `airport`='Sydney';
+UPDATE `sys`.`flights` SET `priority with carriage`='0' WHERE `airport`='Vilnius';
+
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Barcelona';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Beijing';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Berlin';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Budapest';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Helsinki';
+UPDATE `sys`.`airlines` SET `free food`='0' WHERE `airport`='Kiev';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='London';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Milan';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='New-York';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Munich';
+UPDATE `sys`.`airlines` SET `free food`='1' WHERE `airport`='Paris';
+UPDATE `sys`.`airlines` SET `free food`='0' WHERE `airport`='Prague';
+UPDATE `sys`.`airlines` SET `free food`='0' WHERE `airport`='Ottava';
+UPDATE `sys`.`airlines` SET `free food`='0' WHERE `airport`='Sydney';
+UPDATE `sys`.`airlines` SET `free food`='0' WHERE `airport`='Vilnius';
+
+
