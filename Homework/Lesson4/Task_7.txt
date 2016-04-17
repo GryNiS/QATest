@@ -1,0 +1,17 @@
+SELECT * FROM sys.airports;
+
+SELECT * FROM sys.flights;
+
+SELECT * FROM sys.airlines;
+
+SELECT * FROM sys.airports, sys.flights WHERE sys.airports.airport=sys.flights.airport;
+
+SELECT airlines.Name, flights.airport, flights.cost FROM sys.airlines left outer join sys.flights on flights.airlines=airlines.Name;
+
+SELECT airports.airport, airlines.Name FROM sys.airports left outer join sys.airlines on sys.airports.airport=sys.airlines.airport;
+
+SELECT airports.airport, flights.country_of_arrival, flights.cost, flights.priority_with_carriage FROM sys.airports left outer join sys.flights on flights.airport=airports.airport where airports.airport='London' and flights.country_of_arrival='Munich' and flights.cost<120 and flights.priority_with_carriage=1;
+
+SELECT airports.airport, airports.dutyFree, flights.cost, airlines.free_food FROM sys.airports left outer join sys.airlines on airports.airport=airlines.airport left outer join sys.flights on flights.airlines=airlines.Name where airports.airport='New York' and airlines.free_food=1 and airports.dutyFree=1 and flights.cost<500;
+
+SELECT flights.country_of_arrival, airlines.viaInternet, flights.cost FROM sys.airports left outer join sys.airlines on airports.airport=airlines.airport left outer join sys.flights on flights.airlines=airlines.Name where flights.country_of_arrival='Milan' or flights.country_of_arrival='Helsinki' and airlines.viaInternet=1 and flights.cost<100;
