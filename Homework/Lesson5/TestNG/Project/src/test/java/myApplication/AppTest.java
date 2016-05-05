@@ -8,6 +8,9 @@ public class AppTest{
 
 	private App app = new App();
 	
+	@Parameters
+	
+	
     @Test(timeOut = 10000, groups = "testTimer")
     public void book() throws Exception {
     	app.ReadBook();

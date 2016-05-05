@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54" started-at="2016-05-05T07:39:47Z" finished-at="2016-05-05T07:39:47Z">
+  <suite name="Default suite" duration-ms="29" started-at="2016-05-05T13:23:55Z" finished-at="2016-05-05T13:23:55Z">
     <groups>
       <group name="testTimer">
-        <method signature="AppTest.book()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="book" class="myApplication.AppTest"/>
+        <method signature="AppTest.book()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="book" class="myApplication.AppTest"/>
       </group> <!-- testTimer -->
     </groups>
-    <test name="Default test" duration-ms="54" started-at="2016-05-05T07:39:47Z" finished-at="2016-05-05T07:39:47Z">
+    <test name="Default test" duration-ms="29" started-at="2016-05-05T13:23:55Z" finished-at="2016-05-05T13:23:55Z">
       <class name="myApplication.AppTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2016-05-05T16:23:55Z" finished-at="2016-05-05T16:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-05T16:23:55Z" finished-at="2016-05-05T16:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="setUp" is-config="true" duration-ms="1" started-at="2016-05-05T16:23:55Z" finished-at="2016-05-05T16:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="book()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="book" duration-ms="37" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+        <test-method status="PASS" signature="book()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="book" duration-ms="10" started-at="2016-05-05T16:23:55Z" finished-at="2016-05-05T16:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- book -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-05T16:23:55Z" finished-at="2016-05-05T16:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:myApplication.AppTest@5d5eef3d]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-05T16:23:55Z" finished-at="2016-05-05T16:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
