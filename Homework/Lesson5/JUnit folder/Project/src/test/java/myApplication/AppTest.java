@@ -18,8 +18,8 @@ public class AppTest {
     private App app;
     private int i=0;
 
-    @Rule
-    public Timeout timeout = Timeout.seconds(10);
+    //@Rule
+    //public Timeout timeout = Timeout.seconds(10);
     
     @BeforeClass
     public static void init(){
