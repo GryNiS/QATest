@@ -2,47 +2,38 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24" started-at="2016-05-05T07:21:34Z" finished-at="2016-05-05T07:21:34Z">
+  <suite name="Default suite" duration-ms="54" started-at="2016-05-05T07:39:47Z" finished-at="2016-05-05T07:39:47Z">
     <groups>
+      <group name="testTimer">
+        <method signature="AppTest.book()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="book" class="myApplication.AppTest"/>
+      </group> <!-- testTimer -->
     </groups>
-    <test name="Default test" duration-ms="24" started-at="2016-05-05T07:21:34Z" finished-at="2016-05-05T07:21:34Z">
+    <test name="Default test" duration-ms="54" started-at="2016-05-05T07:39:47Z" finished-at="2016-05-05T07:39:47Z">
       <class name="myApplication.AppTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="book()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="book" duration-ms="5" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- book -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="setUp" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
+        <test-method status="PASS" signature="book()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="book" duration-ms="37" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-05T10:39:47Z" finished-at="2016-05-05T10:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:myApplication.AppTest@5dfcfece]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-05-05T10:21:34Z" finished-at="2016-05-05T10:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- myApplication.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
