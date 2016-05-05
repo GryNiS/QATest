@@ -17,9 +17,12 @@ import java.io.IOException;
 public class AppTest {
     private App app;
     private int i=0;
+<<<<<<< HEAD
 
     //@Rule
     //public Timeout timeout = Timeout.seconds(10);
+=======
+>>>>>>> origin/master
     
     @BeforeClass
     public static void init(){
