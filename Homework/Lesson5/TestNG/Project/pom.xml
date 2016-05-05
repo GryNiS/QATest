@@ -12,6 +12,10 @@
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>6.9.10</version>
+        <configuration>
+          <parallel>methods</parallel>
+          <threadCount>10</threadCount>
+        </configuration>
     </dependency>
   </dependencies>
 </project>
