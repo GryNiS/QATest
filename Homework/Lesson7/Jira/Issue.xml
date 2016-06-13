@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Issue>
+	<Head>
+		<Project>DEMO</Project>
+		<Issue_type>Bug</Issue_type>
+	</Head>
+	<Body>
+		<SummaryRequired>Nothink work</SummaryRequired>
+		<Priority>Blocker</Priority>
+		<Components>
+			<component>Landing Carriage</component>
+		</Components>
+		<Affects_Versions>
+			<affect>Production</affect>
+			<affect>Test</affect>
+		</Affects_Versions>
+		<Environment>JDK10000</Environment>
+		<Description>Test</Description>
+		<Attachment>http://cs4.pikabu.ru/post_img/2016/06/13/8/1465822421161248833.jpg</Attachment>
+		<Original_Estimate>3w 4d 12h</Original_Estimate>
+		<Labels>
+			<label>1</label>
+			<label>triaged</label>
+		</Labels>
+		<Story_Points />
+		<Sprint />
+		<Epic_Link>AAC migration</Epic_Link>
+		<Regular_Expression />
+	</Body>
+</Issue>
