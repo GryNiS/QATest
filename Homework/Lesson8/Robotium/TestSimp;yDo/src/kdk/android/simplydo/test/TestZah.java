@@ -18,8 +18,21 @@ public class TestZah extends ActivityInstrumentationTestCase2<SimplyDoActivity> 
 	protected void setUp() throws Exception {
 		super.setUp();
 		solo = new Solo(getInstrumentation(), getActivity());
+		if (!solo.searchText("GrandMA")){
+			solo.clearEditText(0);
+			solo.enterText(0, "GrandMA");
+			solo.clickOnButton(0);
+		}
+		solo.clickOnText("GrandMA");
+		solo.waitForText("New Item Name");
+		if (!solo.searchText("one")){
+			solo.clearEditText(0);
+			solo.enterText(0, "one");
+			solo.clickOnButton(0);
+		}
+		solo.goBack();
 	}
-	
+
 	@Test
 	public void testList() throws Exception{
 		solo.clearEditText(0);
@@ -36,6 +49,7 @@ public class TestZah extends ActivityInstrumentationTestCase2<SimplyDoActivity> 
 	
 	@Test
 	public void testEditList(){
+		
 		solo.clickLongOnText("GrandMA");
 		solo.waitForText("List Options");
 		solo.clickOnText("Edit");
@@ -136,6 +150,59 @@ public class TestZah extends ActivityInstrumentationTestCase2<SimplyDoActivity> 
 		solo.clickOnText("Delete All Inactive");
 		solo.waitForText("Delete Inactive?");
 		solo.clickOnText("Yes");
+	}
+	
+	@Test
+	public void testSetings(){
+		solo.clickOnImageButton(0);
+		solo.waitForText("Settings");
+		solo.clickOnText("Settings");
+		solo.waitForActivity("SettingsActivity");
+		if (!solo.isCheckBoxChecked(0))
+			solo.clickOnText("Confirm Delete All Inactive");
+		solo.goBack();
+		solo.clickOnText("GrandMA");
+		solo.waitForText("New Item Name");
+		solo.clearEditText(0);
+		solo.enterText(0, "sad");
+		solo.clickOnButton(0);
+		solo.clearEditText(0);
+		solo.enterText(0, "zad");
+		solo.clickOnButton(0);
+		solo.clearEditText(0);
+		solo.enterText(0, "aad");
+		solo.clickOnButton(0);
+		solo.clickOnText("sad");
+		solo.clickOnText("zad");
+		solo.clickOnText("aad");
+		solo.clickOnImageButton(0);
+		solo.waitForText("Delete All Inactive");
+		solo.clickOnText("Delete All Inactive");
+		assertTrue("Confirm Delete All Inactive dont work", solo.waitForText("Delete Inactive?"));
+		solo.clickOnText("Yes");
+		solo.clickOnImageButton(0);
+		solo.waitForText("Settings");
+		solo.clickOnText("Settings");
+		solo.waitForActivity("SettingsActivity");
+		if (solo.isCheckBoxChecked(0))
+			solo.clickOnText("Confirm Delete All Inactive");
+		solo.goBack();
+		solo.clearEditText(0);
+		solo.enterText(0, "sad");
+		solo.clickOnButton(0);
+		solo.clearEditText(0);
+		solo.enterText(0, "zad");
+		solo.clickOnButton(0);
+		solo.clearEditText(0);
+		solo.enterText(0, "aad");
+		solo.clickOnButton(0);
+		solo.clickOnText("sad");
+		solo.clickOnText("zad");
+		solo.clickOnText("aad");
+		solo.clickOnImageButton(0);
+		solo.waitForText("Delete All Inactive");
+		solo.clickOnText("Delete All Inactive");
+		assertTrue("Confirm Delete All Inactive setting dont work", !solo.waitForText("Delete Inactive?"));
 	}
 	
 	@Override
